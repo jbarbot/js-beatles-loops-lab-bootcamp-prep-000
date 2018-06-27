@@ -1,7 +1,6 @@
 function theBeatlesPlay(musicians, instruments) {
   const beatlesArray = [];
   for ( let i = 0, ml = musicians.length; i < ml; i++ ) {
-<<<<<<< HEAD
     beatlesArray.push(`${musicians[i]} plays ${instruments[i]}`);
   }
     return beatlesArray
@@ -24,8 +23,4 @@ function iLoveTheBeatles(n) {
     n++
   } while (n < 15)
   return luv
-=======
-    beatlesArray.push(`${musicians} plays ${instruments}`);
-  }
->>>>>>> 1c312ffc7add545bbca76b08994d6f0fa6cedf30
 }
